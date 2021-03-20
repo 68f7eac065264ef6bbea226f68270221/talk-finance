@@ -7,6 +7,13 @@
 
 <body>
     <script src="https://cdn.jwplayer.com/players/BjyGQd1G-C7mTI8lN.js"></script>
+    <script defer>
+        window.addEventListener('load', () => {
+            const video = document.querySelector('video');
+            video.pause();
+            video.muted = false;
+        })
+    </script>
 </body>
 
 </html>
